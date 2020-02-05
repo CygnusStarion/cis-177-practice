@@ -12,17 +12,10 @@ console.log("Hello World");
 // Whenever STRINGS are present, '+'
 
 console.log(
-  "My name is " +
-  name +
-  " and I have been living for " +
-  age +
-" years"
-  )
+  "My name is " + name + " and I have been living for " + age + " years"
+);
 
-
-
-
-  // Template Literals and Interpolation
+// Template Literals and Interpolation
 console.log(`My name is ${name}`);
 
 const timeOfDay = "Afternoon";
@@ -38,3 +31,29 @@ console.log(22 + 22);
 // Dynamic
 let x = 23;
 
+// This is an OBJECT
+
+const me = {
+  name: "Joshua",
+  age: "44",
+  pets: {
+    cat: "Mindy",
+    dog: "Tiva"
+  }
+};
+
+console.log(me.pets.cat);
+
+// create a new key value pair
+me.age = 44;
+
+me.name = "Cygnus";
+
+// References the key 'name' inside of OBJECT me.
+console.log(me.name);
+
+// References all keys within OBJECT me.
+console.log(me);
+
+// will list all console commands
+console.log(console);
